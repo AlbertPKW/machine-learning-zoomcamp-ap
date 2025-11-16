@@ -1,7 +1,7 @@
 import requests
 
 # url = 'http://localhost:9797/predict'
-url = 'https://black-surf-6592.fly.dev/predict'
+url = 'https://hidden-snow-8660.fly.dev/predict'
 
 employee = {
     'department': 'Technology',
