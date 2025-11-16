@@ -1,0 +1,9 @@
+# flyctl launch added from .venv/.gitignore
+.venv/**/*
+
+# flyctl launch added from Churn Prediction/.venv/.gitignore
+Churn Prediction/.venv/**/*
+
+# flyctl launch added from HR Analytics/.venv/.gitignore
+HR Analytics/.venv/**/*
+fly.toml

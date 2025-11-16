@@ -1,15 +1,13 @@
-# fly.toml app configuration file generated for black-surf-6592 on 2025-11-16T20:40:58+08:00
+# fly.toml app configuration file generated for old-snowflake-6528 on 2025-11-16T20:38:22+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'black-surf-6592'
+app = 'old-snowflake-6528'
 primary_region = 'sin'
 
-[build]
-
 [http_service]
-  internal_port = 9797
+  internal_port = 8080
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
