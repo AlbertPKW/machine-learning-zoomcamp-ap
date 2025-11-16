@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for black-surf-6592 on 2025-11-16T20:40:58+08:00
+# fly.toml app configuration file generated for hidden-snow-8660 on 2025-11-16T20:52:17+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'black-surf-6592'
+app = 'hidden-snow-8660'
 primary_region = 'sin'
 
 [build]
