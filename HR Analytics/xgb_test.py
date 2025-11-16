@@ -1,7 +1,7 @@
 import requests
 
-#url = 'http://localhost:9797/predict'
-url = 'https://wandering-meadow-4571.fly.dev/predict'
+# url = 'http://localhost:9797/predict'
+url = 'https://black-surf-6592.fly.dev/predict'
 
 employee = {
     'department': 'Technology',

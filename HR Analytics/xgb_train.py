@@ -11,7 +11,8 @@ from sklearn.pipeline import Pipeline
 import pickle
 
 def load_data():
-    df = pd.read_csv('hr_data_v2.csv') # Import dataset
+    data_url = 'https://raw.githubusercontent.com/AlbertPKW/machine-learning-zoomcamp-ap/refs/heads/main/HR%20Analytics/hr_data_v2.csv'
+    df = pd.read_csv(data_url) # Import dataset
     df.columns = df.columns.str.lower().str.replace(' ', '_')
     return df
 
